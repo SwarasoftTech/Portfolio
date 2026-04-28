@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swara Portfolio</title>
+
+<style>
+:root {
+  --bg: #0f172a;
+  --text: #fff;
+  --card: #1e293b;
+  --accent: #38bdf8;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* HERO */
+header {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* ABOUT */
+.about {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 40px;
+}
+
+.about img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+/* BUTTON TAGS */
+.tags {
+  text-align: center;
+}
+
+.tag {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px;
+  background: var(--card);
+  border-radius: 20px;
+}
+
+/* SKILLS */
+.skills {
+  text-align: center;
+  padding: 40px;
+}
+
+.skill {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: black;
+  border-radius: 20px;
+}
+
+/* PROJECTS */
+.projects {
+  padding: 40px;
+  text-align: center;
+}
+
+.project-card {
+  background: var(--card);
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* CERTIFICATES */
+.certificates {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 20px;
+}
+
+.cert {
+  min-width: 200px;
+  background: var(--card);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cert img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+  <h2>My Portfolio</h2>
+</nav>
+
+<header>
+  <h1>Hi, I'm Swara 👋</h1>
+  <p style="color:#38bdf8;">
+    A creative front-end developer studying at MITAOE, Pune —
+    building websites that are as beautiful as they are functional
+  </p>
+</header>
+
+<!-- ABOUT -->
+<section class="about">
+  <img src="C:\Users\Shravani\OneDrive\Pictures\Screenshots\Screenshot 2026-04-24 195310.png" alt="profile">
+
+  <h2>Who am I?</h2>
+
+  <p>
+    Hello, I am Swara 👋 I'm a front-end developer in the making —
+    currently studying at MIT Academy of Engineering, Pune.
+    I believe great websites live at the intersection of clean code and stunning design.
+  </p>
+
+  <p>
+    I transform raw ideas into digital experiences using HTML, C++ and Python.
+    When I'm not building, I am exploring new tech, reading or deep in doom-scroll spiral.
+  </p>
+</section>
+
+<!-- TAGS -->
+<section class="tags">
+  <h2>My Curiosity</h2>
+  <span class="tag">2+ Projects</span>
+  <span class="tag">4 Languages</span>
+  <span class="tag">Curiosity 🚀</span>
+</section>
+
+<!-- SKILLS -->
+<section class="skills">
+  <h2>What I Know</h2>
+  <span class="skill">HTML</span>
+  <span class="skill">CSS</span>
+  <span class="skill">Python</span>
+  <span class="skill">C++</span>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects">
+  <h2>What I Have Built</h2>
+
+  <div class="project-card">
+    <h3>MedTime Software</h3>
+  </div>
+
+  <div class="project-card">
+     <h3>PIN Verification System</h3>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section>
+  <h2 style="text-align:center;">Achievements</h2>
+
+  <div class="certificates">
+
+    <div class="cert">
+      <img src="C:\Users\Shravani\OneDrive\Pictures\Screenshots\Screenshot 2026-04-24 194328.png">
+      <p>IBM Career Management Essentials</p>
+    </div>
+
+    <div class="cert">
+      <img src="C:\Users\Shravani\OneDrive\Pictures\Screenshots\Screenshot 2026-04-24 194408.png">
+      <p>IBM Learn JavaScript (Codeacademy)</p>
+    </div>
+
+    <div class="cert">
+      <img src="C:\Users\Shravani\OneDrive\Pictures\Screenshots\Screenshot 2026-04-24 194439.png">
+      <p>IBM Artificial Intelligence Fundamentals</p>
+    </div>
+
+    <div class="cert">
+      <img src="C:\Users\Shravani\OneDrive\Pictures\Screenshots\Screenshot 2026-04-24 194511.png">
+      <p>Cisco Python Essentials 1</p>
+    </div>
+
+    <div class="cert">
+      <img src="C:\Users\Shravani\OneDrive\Pictures\Screenshots\Screenshot 2026-04-24 194511.png">
+      <p>Cisco Python Essentials 2</p>
+    </div>
+
+    <div class="cert">
+      <img src="C:\Users\Shravani\OneDrive\Pictures\Screenshots\Screenshot 2026-04-24 194633.png">
+      <p>Anthropic AI Fluency for Students</p>
+    </div>
+
+    <div class="cert">
+      <img src="C:\Users\Shravani\OneDrive\Pictures\Screenshots\Screenshot 2026-04-24 194609.png">
+      <p>Anthropic AI for Non-Profits</p>
+    </div>
+
+    <div class="cert">
+      <img src="C:\Users\Shravani\OneDrive\Pictures\Screenshots\Screenshot 2026-04-24 194731.png">
+      <p>Nasscom Digital 101</p>
+    </div>
+
+  </div>
+</section>
+ <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: swaramankad@gmail.com</p>
+  </section>
+
+<script>
+function openPDF(file) {
+  window.open(file, "_blank");
+}
+</script>
+
+
+</body>
+</html>
